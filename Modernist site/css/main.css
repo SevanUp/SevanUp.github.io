@@ -390,7 +390,7 @@ footer .main .container-footer .foot4 .submit {
 @media screen and (max-width: 920px) {
   header {
     position: relative;
-    min-height: 100%;
+    min-height: 110%;
     overflow: hidden;
   }
   header .main .head nav {
