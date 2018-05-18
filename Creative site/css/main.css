@@ -645,7 +645,7 @@ footer .main p {
   header {
     position: relative;
     overflow: hidden;
-    min-height: 80%;
+    min-height: 100%;
   }
   header .main .head nav {
     width: 60px;
