@@ -132,7 +132,7 @@ body {
   height: 100%;
   font-size: 16px;
   line-height: 1.5;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+  overflow-x: hidden;
 }
 h1 {
   font-family: 'GothamBold';
