@@ -190,7 +190,7 @@ header .main .slider .slide article p {
 header .main .slider .slide img {
   width: 380px;
   height: 380px;
-  clip-path: circle(50%);
+  border-radius: 50%;
   object-fit: cover;
 }
 .services {
