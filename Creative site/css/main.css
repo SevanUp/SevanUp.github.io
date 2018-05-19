@@ -16,6 +16,7 @@ header {
   min-height: 100%;
   background-image: url("../img/header.png");
   background-size: cover;
+  overflow: hidden;
 }
 header .main .head {
   display: flex;
@@ -131,7 +132,6 @@ body {
   height: 100%;
   font-size: 16px;
   line-height: 1.5;
-  overflow: hidden;
 }
 h1 {
   font-family: 'GothamBold';
@@ -623,6 +623,7 @@ textarea {
   width: 100%;
   min-height: 50%;
   background-color: #222222;
+  overflow: hidden;
 }
 footer {
   display: flex;
