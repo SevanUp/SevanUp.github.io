@@ -10,6 +10,7 @@
   }
 }
 header {
+  position: relative;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -132,7 +133,6 @@ body {
   height: 100%;
   font-size: 16px;
   line-height: 1.5;
-  overflow-x: hidden;
 }
 h1 {
   font-family: 'GothamBold';
