@@ -1338,6 +1338,15 @@ footer .main .contacts h6 {
     .hamburger .hamburger-menu {
         width: 100%;
     }
+    header .slider1 .slide1 {
+        background-image: linear-gradient(0deg, rgba(9, 5, 47, 0.851) 0%, rgba(49, 29, 94, 0.851) 100%), url("../img/header-small.png");
+    }
+    .teams {
+        background-image: linear-gradient(0deg, rgba(9, 5, 47, 0.851) 0%, rgba(49, 29, 94, 0.851) 100%), url("../img/team-small.png");
+    }
+    .members {
+        background-image: linear-gradient(0deg, rgba(9, 5, 47, 0.851) 0%, rgba(49, 29, 94, 0.851) 100%), url("../img/hire-small.png");
+    }
     .video {
         display: none;
     }
@@ -1357,6 +1366,9 @@ footer .main .contacts h6 {
     }
     .members .main .slider2 {
         width: 100%;
+    }
+    footer {
+        background-image: linear-gradient(0deg, rgba(9, 5, 47, 0.851) 0%, rgba(49, 29, 94, 0.851) 100%), url("../img/footer-small.png");
     }
     footer .main {
         width: 100%;
