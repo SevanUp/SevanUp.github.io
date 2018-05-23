@@ -2,6 +2,7 @@ $(document).ready(function() {
     $('.slider1').slick({
         infinite: true,
         slidesToScroll: 1,
+        lazyLoad: 'ondemand',
         autoplaySpeed: 5000,
         autoplay: true,
         arrows: false,
