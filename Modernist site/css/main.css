@@ -190,7 +190,7 @@ header .main .slider .slide article p {
 header .main .slider .slide img {
   width: 380px;
   height: 380px;
-  clip-path: circle(50%);
+  border-radius: 50%;
   object-fit: cover;
 }
 .services {
@@ -390,7 +390,7 @@ footer .main .container-footer .foot4 .submit {
 @media screen and (max-width: 920px) {
   header {
     position: relative;
-    min-height: 100vh;
+    min-height: 580px;
     overflow: hidden;
   }
   header .main .head nav {
@@ -408,7 +408,7 @@ footer .main .container-footer .foot4 .submit {
     position: absolute;
     right: -200px;
     top: 0;
-    max-height: 100vh;
+    height: 100%;
     width: 200px;
     box-sizing: border-box;
     background-color: #303030;
