@@ -10,12 +10,14 @@
   }
 }
 header {
+  position: relative;
   display: flex;
   justify-content: center;
   width: 100%;
   min-height: 100%;
   background-image: url("../img/header.png");
   background-size: cover;
+  overflow: hidden;
 }
 header .main .head {
   display: flex;
@@ -622,6 +624,7 @@ textarea {
   width: 100%;
   min-height: 50%;
   background-color: #222222;
+  overflow: hidden;
 }
 footer {
   display: flex;
@@ -645,7 +648,7 @@ footer .main p {
   header {
     position: relative;
     overflow: hidden;
-    min-height: 80%;
+    min-height: 100%;
   }
   header .main .head nav {
     width: 60px;
@@ -662,7 +665,7 @@ footer .main p {
     position: absolute;
     right: -200px;
     top: 0;
-    height: 80%;
+    height: 100%;
     width: 200px;
     background-color: #222222;
     z-index: 1;
@@ -1025,4 +1028,3 @@ footer .main p {
   footer .main p {
     font-family: 'GothamMedium';
   }
-}
