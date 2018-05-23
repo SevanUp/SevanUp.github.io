@@ -1151,7 +1151,7 @@ footer .main .contacts h6 {
     }
     header .slider1 .slide:nth-of-type(n+2) {
         display: none;
-        background-image: unset;
+        background-image: none;
     }
     header .main .head nav {
         width: 40px;
