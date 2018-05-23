@@ -207,6 +207,10 @@ a {
     font-size: 0.875rem;
 }
 
+.preload {
+    display: none;
+}
+
 .slick-dotted.slick-slider {
     margin-bottom: 0;
 }
@@ -251,7 +255,7 @@ a {
 }
 
 .hamburger {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -1146,6 +1150,9 @@ footer .main .contacts h6 {
 }
 
 @media screen and (max-width: 800px) {
+    .hamburger {
+        display: flex;
+    }
     header .slider1 .slide {
         width: 100%;
     }
