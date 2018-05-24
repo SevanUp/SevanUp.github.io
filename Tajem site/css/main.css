@@ -1322,7 +1322,8 @@ footer .main .contacts h6 {
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 450px),
+screen and (max-height: 450px) {
     .hamburger .hamburger-menu {
         width: 100%;
     }
@@ -1351,9 +1352,6 @@ footer .main .contacts h6 {
     }
     .works .container-works .work:nth-of-type(n+5) {
         display: none;
-    }
-    .works .container-works .work img[data-hidden] {
-        content: url("data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=");
     }
     .members .main {
         width: 100%;
