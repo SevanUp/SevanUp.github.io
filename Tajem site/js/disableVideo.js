@@ -12,14 +12,14 @@ window.addEventListener("load", function() {
 
     video.load();
 
-    for (let i = 0; i < img.length; i++) {
+    /*for (let i = 0; i < img.length; i++) {
         visible = !!(img[i].offsetWidth ||
             img[i].offsetHeight ||
             img[i].getClientRects().length);
         if (!visible) {
             img[i].src = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
         }
-    }
+    }*/
 
 
 });
