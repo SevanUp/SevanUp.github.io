@@ -8,6 +8,7 @@ window.addEventListener("load", function() {
 
     if (visible) {
         video.src = video.getAttribute("data-src");
+        video.poster = video.getAttribute("data-poster");
     }
 
     video.load();
