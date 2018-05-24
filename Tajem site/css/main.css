@@ -1,39 +1,4 @@
 @font-face {
-    font-family: 'PlayBlack';
-    src: url('../fonts/PlayfairDisplay-Black.ttf');
-}
-
-@font-face {
-    font-family: 'PlayBold';
-    src: url('../fonts/PlayfairDisplay-Bold.ttf');
-}
-
-@font-face {
-    font-family: 'PlayReg';
-    src: url('../fonts/PlayfairDisplay-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'RobotoRegular';
-    src: url('../fonts/Roboto-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'RobotoLight';
-    src: url('../fonts/Roboto-Light.ttf');
-}
-
-@font-face {
-    font-family: 'RobotoThin';
-    src: url('../fonts/Roboto-Thin.ttf');
-}
-
-@font-face {
-    font-family: 'RobotoBlack';
-    src: url('../fonts/Roboto-Black.ttf');
-}
-
-@font-face {
     font-family: 'Hammer';
     src: url('../fonts/HammersmithOne-Regular.ttf');
 }
@@ -52,17 +17,20 @@ body {
 }
 
 h1 {
-    font-family: 'RobotoThin';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 
 h2 {
-    font-family: 'PlayBlack';
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
     font-size: 2rem;
     letter-spacing: 0.01em;
 }
 
 h3 {
-    font-family: 'PlayBold';
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
     font-size: 1.375rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -70,33 +38,32 @@ h3 {
 }
 
 h4 {
-    font-family: 'RobotoBlack';
-    /*items, hire*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     font-size: 0.875rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    /*50 в фотошопе*/
 }
 
 h5 {
-    font-family: 'RobotoBlack';
-    /*footer*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     font-size: 0.9375rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
 
 h6 {
-    font-family: 'RobotoRegular';
-    /*footer help*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 0.875rem;
     text-transform: uppercase;
     letter-spacing: 0.025em;
 }
 
 p {
-    font-family: 'RobotoLight';
-    /*кое-где у p другой шрифт и трекинг, а line-height убираем*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 0.875rem;
     line-height: 1.57;
     letter-spacing: 0.03em;
@@ -112,7 +79,8 @@ li {
 }
 
 a {
-    font-family: 'RobotoBlack';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     font-size: 0.8125rem;
     letter-spacing: 0.025em;
     text-decoration: none;
@@ -167,7 +135,8 @@ a {
     padding-left: 20px;
     box-sizing: border-box;
     border: 1px solid rgba(0, 0, 0, 0.102);
-    font-family: 'RobotoLight';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 0.875rem;
     color: #413d4b;
     background-color: transparent;
@@ -180,7 +149,8 @@ a {
     padding: 20px;
     box-sizing: border-box;
     border: 1px solid rgba(0, 0, 0, 0.102);
-    font-family: 'RobotoLight';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 0.875rem;
     color: #413d4b;
     background-color: transparent;
@@ -191,19 +161,22 @@ a {
 ::placeholder {
     color: #413d4b;
     opacity: 1;
-    font-family: 'RobotoLight';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 0.875rem;
 }
 
 :-ms-input-placeholder {
     color: #413d4b;
-    font-family: 'RobotoLight';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 0.875rem;
 }
 
 ::-ms-input-placeholder {
     color: #413d4b;
-    font-family: 'RobotoLight';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 0.875rem;
 }
 
@@ -356,7 +329,8 @@ header .main .head .logo img {
 }
 
 header .main .head .logo h1 a {
-    font-family: 'RobotoThin';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
     text-transform: lowercase;
     color: #2497a4;
     font-size: 1.875rem;
@@ -527,7 +501,8 @@ header .main article p {
 }
 
 .expertise .main p {
-    font-family: 'PlayReg';
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
     font-size: 0.875rem;
     color: #413d4b;
     margin-bottom: 20px;
@@ -598,7 +573,8 @@ header .main article p {
 }
 
 .teams .main p:first-of-type {
-    font-family: 'PlayReg';
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
     font-size: 0.875rem;
     color: white;
     margin-bottom: 20px;
@@ -657,7 +633,8 @@ header .main article p {
 }
 
 .teams .main .container-teams .team p {
-    font-family: 'RobotoLight';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 0.8125rem;
     line-height: 1;
     letter-spacing: 0;
@@ -709,7 +686,8 @@ header .main article p {
 }
 
 .works .main p a {
-    font-family: 'RobotoLight';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 0.875rem;
     line-height: 1.57;
     letter-spacing: 0.03em;
@@ -768,7 +746,8 @@ header .main article p {
 
 .members .main p {
     width: 81%;
-    font-family: 'PlayReg';
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
     font-size: 1rem;
     line-height: 1.6;
     letter-spacing: 0.025em;
@@ -994,7 +973,8 @@ footer .main .about .logo h1 {
 }
 
 footer .main .about .logo h1 a {
-    font-family: 'RobotoThin';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
     font-size: 1.875rem;
     color: #2497a4;
     text-transform: lowercase;
@@ -1013,7 +993,8 @@ footer .main .about .links {
 }
 
 footer .main .about .links a {
-    font-family: 'RobotoRegular';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 0.875rem;
 }
 
