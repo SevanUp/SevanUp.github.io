@@ -1352,6 +1352,9 @@ footer .main .contacts h6 {
     .works .container-works .work:nth-of-type(n+5) {
         display: none;
     }
+    .works .container-works .work img[data-hidden] {
+        content: url("data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=");
+    }
     .members .main {
         width: 100%;
     }
